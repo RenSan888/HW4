@@ -1,3 +1,8 @@
+# Members
+Oscar Hernandez Lesage
+
+Renatha Sanchez
+
 # Questions
 
 1. What is your strategy for identifying unique clients?
