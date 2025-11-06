@@ -59,8 +59,11 @@ Test sequential vs concurrent download (Speedup)
 
     python http_client_concurrent.py -urls http://localhost:20001/file1.txt http://localhost:20001/file2.txt -o downloads_seq -c 1
 
-  AND
+  &
 
     python http_client_concurrent.py -urls http://localhost:20001/file1.txt http://localhost:20001/file2.txt -o downloads_conc -c 10
 
+  &
+
+    python http_client_concurrent.py -urls http://localhost:20001/testfiles1/file1.txt http://localhost:20001/testfiles1/file2.txt ... -o downloads_conc -c 10
 
