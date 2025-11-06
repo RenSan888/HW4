@@ -41,12 +41,17 @@ Explanation: The results are the same as the stock HTTP server because the test 
 
 # How to run
 On server
+
     python http_server_conc.py -p 20001 -maxclient 12 -maxtotal 60
+    
 
 On client
+
     python http_client_concurrent.py -urls http://localhost:20001/file1.txt http://localhost:20001/file2.txt -o downloads -c 10
+    
 
 Test sequential vs concurrent download (Speedup)
+
     python http_client_concurrent.py -urls http://localhost:20001/file1.txt http://localhost:20001/file2.txt -o downloads_seq -c 1
 
   AND
